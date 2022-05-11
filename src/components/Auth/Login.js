@@ -2,13 +2,16 @@ import React, { Component } from 'react';
 import '../Auth/Login.scss'
 
 class Login extends Component {
-    constructor(props) {
-        super(props);
-    }
-    state = {}
     render() {
         return (
-            <div>Heeloo </div>
+            <div className='Login'>
+                <div className='formLogin'>
+                    <div className='title'>
+                        Login
+                    </div>
+
+                </div>
+            </div>
         );
     }
 }
