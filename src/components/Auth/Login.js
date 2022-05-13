@@ -28,13 +28,13 @@ class Login extends Component {
                         </p>
                         <div className="socialMedia">
                             <a class="socialMediaIcon">
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-facebook-f facebook-icon"></i>
                             </a>
-                            <a className="socialMediaIcon">
-                                <FontAwesomeIcon icon="fa-brands fa-twitter" />
+                            <a className="socialMediaIcon ">
+                                <i class="fa-brands fa-twitter twitter-icon"></i>
                             </a>
-                            <a className="socialMediaIcon">
-                                <i className="fa-brands fa-google-plus-g"></i>
+                            <a className="socialMediaIcon me-0">
+                                <i className="fa-brands fa-google-plus-g google-icon"></i>
                             </a>
                         </div>
                     </div>
