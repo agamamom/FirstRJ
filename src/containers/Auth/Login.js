@@ -1,5 +1,13 @@
+// import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { push } from "connected-react-router";
+import * as actions from "../../store/actions";
+
+import { FormattedMessage } from 'react-intl';
+
 import React, { Component } from 'react';
 import '../Auth/Login.scss';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 class Login extends Component {
@@ -52,7 +60,6 @@ class Login extends Component {
                         <div className="socialMedia">
                             <a class="socialMediaIcon">
                                 <i class="fa-brands fa-facebook-f facebook-icon"></i>
-
                             </a>
                             <a className="socialMediaIcon ">
                                 <i class="fa-brands fa-twitter twitter-icon"></i>

@@ -1,5 +1,5 @@
-import '../components/App.scss';
-import Login from './Auth/Login';
+// import '../components/App.scss';
+import Login from '../containers/Auth/Login';
 
 function App() {
   return (
