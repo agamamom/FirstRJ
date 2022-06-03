@@ -53,7 +53,7 @@ class Login extends Component {
                         </div>
                         <button type="submit" className="btn btn-primary" onClick={() => { this.handleSubmit() }}>Log in</button>
                     </form>
-                    <div className="signWith">
+                    <div className="signWith" style={{ textAlign: 'center' }}>
                         <p>
                             Or sign in with:
                         </p>
